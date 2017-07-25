@@ -15,7 +15,7 @@ class AddTableVideos extends Migration
     {
       Schema::create('videos',function($table){
         $table->increments('id');
-        $table->integer('profile_id');
+        $table->integer('profile_id')->unsigned();
         $table->string('video');
         //-----------foreign keys0------
         $table->foreign('profile_id')->references('id')->on('profiles');

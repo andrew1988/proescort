@@ -15,19 +15,20 @@ class AddTableProfiles extends Migration
     {
       Schema::create('profiles',function($table){
         $table->increments('id');
-        $table->integer('user_id');
-        $table->integer('country_id');
-        $table->integer('countie_id');
-        $table->string('city',255);
-        $table->string('zodiac',255);
-        $table->integer('height');
-        $table->integer('weight');
-        $table->string('constituion',255);
-        //------------------foreign keys----------------------------------------
+        $table->integer('user_id')->unique()->unsigned();
+        $table->integer('country_id')->unique()->unsigned();
+        $table->integer('countie_id')->unique()->unsigned();
+        $table->string('city',255)->nullable();
+        $table->string('zodiac',255)->nullable();
+        $table->integer('height')->nullable();
+        $table->integer('weight')->nullable();
+        $table->string('constituion',255)->nullable();
+      });
+      //------------------foreign keys----------------------------------------
+      Schema::table('profiles',function($table){
         $table->foreign('user_id')->references('id')->on('users'); //cascade also deletes user id profile deleted.
         $table->foreign('country_id')->references('id')->on('countries');
         $table->foreign('countie_id')->references('id')->on('counties');
-
       });
     }
 

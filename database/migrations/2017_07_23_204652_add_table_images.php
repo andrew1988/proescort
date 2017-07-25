@@ -15,7 +15,7 @@ class AddTableImages extends Migration
     {
       Schema::create('images',function($table){
         $table->increments('id');
-        $table->integer('profile_id');
+        $table->integer('profile_id')->unsigned();
         $table->string('image');
         //-----------foreign keys0---------------
         $table->foreign('profile_id')->references('id')->on('profiles');
