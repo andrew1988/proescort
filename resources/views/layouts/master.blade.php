@@ -6,7 +6,7 @@
       @include("partials.search")
 
       @yield("content")
-      
+
       @include("partials.footer")
     </body>
 </html>
