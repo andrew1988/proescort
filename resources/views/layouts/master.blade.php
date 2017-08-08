@@ -2,11 +2,14 @@
 <html lang="{{ config('app.locale') }}">
 @include("partials.head")
     <body>
-      @include("partials.header")
-      @include("partials.search")
+      <div class="container">
+        
+        @include("partials.header")
+        @include("partials.search")
 
-      @yield("content")
+        @yield("content")
 
-      @include("partials.footer")
+        @include("partials.footer")
+    </div>
     </body>
 </html>

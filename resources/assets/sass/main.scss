@@ -6,10 +6,21 @@ html,body{
 }
 body{
   background-image: url('/site-img/background.png');
-  /*background-color: red;*/
 }
-main{
-  width:80%;
-  border:1px solid #ff0000;
-  background-color: white;
+/**************************
+********HEADER CLASSES*****
+**************************/
+.site-header{
+  background-color: black;
+  .section-logo-site-signup{
+      color:red;
+  }
+  .second-navigation{
+    color:red;
+  }
+}
+
+.section-search{
+  background-color: black;
+  color:yellow;
 }
