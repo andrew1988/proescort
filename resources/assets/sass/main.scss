@@ -18,8 +18,21 @@ body{
   .second-navigation{
     color:red;
   }
+  nav{
+    background-color: #222222;
+    width:100%;
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  .main-navigation{
+    border:1px solid #2d2d2d;
+  }
+  .col-half-offset{
+    border-left:1px solid #2d2d2d;
+  }
 }
-
 .section-search{
   background-color: black;
   color:yellow;
