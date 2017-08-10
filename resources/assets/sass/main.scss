@@ -3,10 +3,19 @@ html,body{
   width:100%;
   height:100%;
   margin:0;
+  font-size: 16px;
 }
 body{
   background-image: url('/site-img/background.png');
 }
+/**************************
+********FONTS**************
+**************************/
+@font-face {
+  font-family: "sui-generis";
+  src: url("/fonts/sui-generis-rg.ttf");
+}
+
 /**************************
 ********HEADER CLASSES*****
 **************************/
@@ -28,11 +37,24 @@ body{
   }
   .main-navigation{
     border:1px solid #2d2d2d;
+    text-align:center;
+    font-size: 1.2em;
+    a{
+      color:#dfddde;
+    }
   }
   .col-half-offset{
     border-left:1px solid #2d2d2d;
   }
-}
+
+  .section-logo-site-signup{
+    span{
+      font-family: "sui-generis";
+      color:white;
+    }
+  }
+
+}/*end header classes*/
 .section-search{
   background-color: black;
   color:yellow;
