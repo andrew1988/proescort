@@ -9,7 +9,7 @@ body{
   background-image: url('/site-img/background.png');
 }
 /**************************
-********FONTS**************
+********Coustom FONTS******
 **************************/
 @font-face {
   font-family: "sui-generis";
@@ -51,6 +51,20 @@ body{
     span{
       font-family: "sui-generis";
       color:white;
+      font-size:1.5em;
+    }
+    .start_logo_name{
+      /*border:1px solid blue;*/
+
+    }
+    .end_logo_name{
+      /*border:1px solid green;*/
+      color:red;
+      /*font-size:1.5em;
+      vertical-align: middle;*/
+    }
+    .format_logo{
+      margin-top: 10%;
     }
   }
 
