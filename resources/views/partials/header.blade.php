@@ -21,21 +21,25 @@
               </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="sign_in_form">
-                Cauti o escorta sau esti escorta?<br>
-                Inscriete-te acum in cel mai profesionist portal
-                de escorte din Romania!<br>
-                <a href="#">Inscriere</a>
-
+        <div class="col-md-4 format_sign_up_form">
+            <span>Esti sau cauti o escorta?</span>
+            <div class="sign_up_form">
+                <a href="#">Inscrie-te acum!</a>
             </div>
         </div>
-        <div class="col-md-4">Ai deja cont?<br>
-          Te poti loga aici:
-        {{--  {!! Form::open() !!}
-            {!! Form::text('email') !!}
-            {!! Form::password('password') !!}
-          {!! Form::close() !!} --}}
+        <div class="col-md-4">
+          <span>Daca ai deja cont, te poti loga aici:</span>
+          <div class="sign-in-form">
+          {!! Form::open() !!}
+          <div class="log-in-inputs">
+            {!! Form::email('email',null,['class'=>'form-control format_inputs']) !!}
+            {!! Form::password('password',['class'=>'form-control format_inputs']) !!}
+         </div>
+         <div class="log-in-buttons">
+            {!! Form::submit('Log-in',['class'=>"form-control format-login-button"]) !!}
+
+        </div>
+          {!! Form::close() !!}
         </div>
     </div>
   </section>
