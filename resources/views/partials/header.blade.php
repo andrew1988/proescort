@@ -24,7 +24,7 @@
         <div class="col-md-4 format_sign_up_form">
             <span>Esti sau cauti o escorta?</span>
             <div class="sign_up_form">
-                <a href="#">Inscrie-te acum!</a>
+                <img src="{{ asset("site-img/sign_up.png") }}" width="30"><a href="#">Inscrie-te acum!</a>
             </div>
         </div>
         <div class="col-md-4">
@@ -36,7 +36,7 @@
                 {!! Form::password('password',['class'=>'form-control format_inputs']) !!}
               </div>
               <div class="log-in-buttons">
-                  {!! Form::submit('Log-in',['class'=>"form-control format-login-button"]) !!}
+                  {!! Form::submit('Logare',['class'=>"form-control format-login-button"]) !!}
               </div>
               {!! Form::close() !!}
          </div>

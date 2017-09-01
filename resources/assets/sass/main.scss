@@ -71,13 +71,23 @@ body{
       margin-bottom: 3%;
       padding-left: 5px;
       padding-right: 5px;
-      background-color: red;
+      /*background-color: red;*/
+      background:repeating-linear-gradient(
+        45deg,
+        #ff0000,
+        #c12424 5px,
+        #ff0000 5px,
+        #ff0000 5px
+      );
       height: 80%;
       width: 100%;
       text-align: center;
       border-radius:10px;
       a{color:white;
       font-size: 2em;
+      }
+      img{
+        vertical-align: inherit;
       }
     }
     .format_sign_up_form{
@@ -113,9 +123,19 @@ body{
       }
       .format-login-button{
         height:100%;
-        color:blue;
-      }
+        color:white;
+        font-size: 30px;
+        font-weight: 300;
+        border:1px solid #550000;
+        background:repeating-linear-gradient(
+          45deg,
+          #ff0000,
+          #c12424 5px,
+          #ff0000 5px,
+          #ff0000 5px
+        );
 
+      }
     }
 
   }
