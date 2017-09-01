@@ -16,7 +16,7 @@
                 <img src="/site-img/pro_escorts_logo.png" width="140">
               </div>
               <div class="col-md-6 format_logo">
-                  <img src="{{asset("site-img/logo.png")}}" width="150"/>
+                  <img src="{{asset("site-img/logo.png")}}" width="160"/>
                   {{-- <span class="start_logo_name">Pro</span><span class="end_logo_name">Escorts</span> --}}
               </div>
             </div>
@@ -30,17 +30,16 @@
         <div class="col-md-4">
           <span>Daca ai deja cont, te poti loga aici:</span>
           <div class="sign-in-form">
-          {!! Form::open() !!}
-          <div class="log-in-inputs">
-            {!! Form::email('email',null,['class'=>'form-control format_inputs']) !!}
-            {!! Form::password('password',['class'=>'form-control format_inputs']) !!}
+              {!! Form::open() !!}
+              <div class="log-in-inputs">
+                {!! Form::email(' email',null,['class'=>'form-control format_inputs']) !!}
+                {!! Form::password('password',['class'=>'form-control format_inputs']) !!}
+              </div>
+              <div class="log-in-buttons">
+                  {!! Form::submit('Log-in',['class'=>"form-control format-login-button"]) !!}
+              </div>
+              {!! Form::close() !!}
          </div>
-         <div class="log-in-buttons">
-            {!! Form::submit('Log-in',['class'=>"form-control format-login-button"]) !!}
-
-        </div>
-          {!! Form::close() !!}
-        </div>
     </div>
   </section>
   <nav class="second-navigation">

@@ -85,6 +85,9 @@ body{
     }
 
     .sign-in-form{
+      form {
+          height: 85px;
+      }
       .log-in-inputs{
           float:left;
           width:65%
@@ -92,7 +95,8 @@ body{
       .log-in-buttons{
           float:right;
           margin-right:5px;
-          width:33%; height:100%;
+          width:33%;
+          height:100%;
       }
       .format_inputs{
           background-color: transparent;
