@@ -1,14 +1,18 @@
 <header class="site-header">
   <nav class="main-navigation">
+   <div class="container">
     <div class="row menu-item">
-      <div class="col-xs-2 col-half-offset"><a href="#">Link1</a></div>
-      <div class="col-xs-2 col-half-offset"><a href="#">Link1</a></div>
-      <div class="col-xs-2 col-half-offset"><a href="#">Link1</a></div>
-      <div class="col-xs-2 col-half-offset"><a href="#">Link1</a></div>
-      <div class="col-xs-2 col-half-offset"><a href="#">Link1</a></div>
+       <div class="col-xs-2">link 1</div>
+       <div class="col-xs-2 link_element">link 1</div>
+       <div class="col-xs-2 link_element">link 1</div>
+       <div class="col-xs-2 link_element">link 1</div>
+       <div class="col-xs-2 link_element">link 1</div>
+       <div class="col-xs-2 link_element">link 1</div>
     </div>
+  </div>
   </nav>
   <section class="section-logo-site-signup">
+    <div class="container-fluid">
     <div class="row">
         <div class="col-md-4">
             <div class="row">
@@ -41,9 +45,10 @@
               {!! Form::close() !!}
          </div>
     </div>
+  </div>
+</div>
   </section>
   <nav class="second-navigation">
     this one might be removes, will have to see about that.
   </nav>
-
 </header>
