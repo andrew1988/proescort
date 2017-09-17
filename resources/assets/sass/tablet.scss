@@ -1,0 +1,40 @@
+@media only screen and (max-width: $tabletBreakpoint) {
+.site-header{
+    .section-logo-site-signup{
+          .sign_up_form{
+            a{
+              font-size: 1.9em;
+          }
+        }
+        .format_logo{
+          margin-top: 16%;
+          img{
+            width:120px;
+          }
+        }
+        .sign_up_form{
+          margin-top: 15px;
+          padding-top: 6px;
+          padding-bottom:6px;
+        }
+        .sign-in-form{
+            .format-login-button{
+              font-size: 23px;
+            }
+            form {
+                height: 70px;
+            }
+        }
+        span{
+          font-size: 1em;
+        }
+        .format_sign_up_form{
+          text-align: left;
+        }
+        .format-login-button{
+          height:100%;
+          margin-top: 10px;
+        }
+      }
+  }
+}

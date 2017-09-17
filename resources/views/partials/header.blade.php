@@ -20,7 +20,7 @@
                 <img src="/site-img/pro_escorts_logo.png" width="140">
               </div>
               <div class="col-md-6 format_logo">
-                  <img src="{{asset("site-img/logo.png")}}" width="160"/>
+                  <img src="{{asset("site-img/logo.png")}}"/>
                   {{-- <span class="start_logo_name">Pro</span><span class="end_logo_name">Escorts</span> --}}
               </div>
             </div>
