@@ -34,9 +34,9 @@
         <div class="col-md-4">
           <span>Daca ai deja cont, te poti loga aici:</span>
           <div class="sign-in-form">
-              {!! Form::open() !!}
+              {!! Form::open(['autocomplete'=>'off']) !!}
               <div class="log-in-inputs">
-                {!! Form::email(' email',null,['class'=>'form-control format_inputs']) !!}
+                {!! Form::email(' email',null,['class'=>'form-control format_inputs','id'=>'inputId']) !!}
                 {!! Form::password('password',['class'=>'form-control format_inputs']) !!}
               </div>
               <div class="log-in-buttons">

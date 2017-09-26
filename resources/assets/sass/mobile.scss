@@ -1,3 +1,34 @@
 @media only screen and (max-width: $phoneBreakpoint) {
+body{
+  background-color: red;
+}
 
+  .site-header{
+      .section-logo-site-signup{
+            .sign_up_form{
+              a{
+                font-size: 1.5em;
+            }
+          }
+          .sign-in-form{
+              .format-login-button{
+                font-size: 23px;
+              }
+              form {
+                  height: 60px;
+              }
+          }
+          span{
+            font-size: 1em;
+          }
+          .format_sign_up_form{
+            text-align: left;
+          }
+          .format-login-button{
+            color:blue;
+            height:100%;
+            margin-top: 0px;
+          }
+        }
+    }
 }

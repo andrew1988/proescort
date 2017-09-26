@@ -7,6 +7,9 @@ html,body{
 }
 body{
   background-image: url('/site-img/background.png');
+  /*input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 1000px black inset;
+  }*/
 }
 
 
@@ -122,6 +125,9 @@ body{
           border-radius:0px;
           width:95%;
           /*margin-top:2px;*/
+      }
+      #inputId{
+        background-color: transparent;
       }
       .format_inputs:focus{
         border-bottom:2px solid white;

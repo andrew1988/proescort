@@ -1,4 +1,4 @@
-@media only screen and (max-width: $tabletBreakpoint) {
+@media only screen and (min-width: $minTabletBreakpoint) and (max-width: $maxTabletBreakpoint) {
 .site-header{
     .section-logo-site-signup{
           .sign_up_form{
