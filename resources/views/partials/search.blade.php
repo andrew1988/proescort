@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-2">
           Judet
-          {!! Form::select("city",['0'=>'Alege Judet'],null,['class'=>'form-control']) !!}
+          {!! Form::select("city",['0'=>'Alege Judete de intalnire'],null,['class'=>'form-control']) !!}
         </div>
         <div class="col-md-2">
           Oras
